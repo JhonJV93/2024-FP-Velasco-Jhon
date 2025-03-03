@@ -21,7 +21,6 @@ class Producto:
     def from_dict(data):
         return Producto(data["ID"], data["Nombre"], data["Cantidad"], data["Precio"])
 
-
 class Inventario:
     def __init__(self):
         self.productos = {}
